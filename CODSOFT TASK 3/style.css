@@ -1,0 +1,77 @@
+*{
+    padding: none;
+    margin: none;
+    border: none;
+   
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg,rgb(0, 0, 0),rgb(109, 105, 105));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cal {
+    border: solid 1px rgb(0, 0, 0);
+    
+    padding: 20px;
+    border-radius: 15%;
+    background: #3458b977;
+    box-shadow: 0px 5px 25px rgba(219, 197, 197, 0.5) ;
+
+}
+
+input {
+    width: 320px;
+    margin: 10px;
+    padding: 24px;
+    background: transparent;
+    border:none;
+    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1) ;
+    text-align: right;
+    font-size: 40px;
+    cursor: pointer;
+    color: white;
+    border-bottom: solid 1px #b9a3a3 ;
+    border-radius: 20%;
+}
+input::placeholder{
+    color: white;
+}
+button {
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+    border: none;
+    border-radius: 150px;
+    background: #ffff;
+    box-shadow: -8px -8px 15px rgba(84, 84, 84, 1.1) ;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+
+
+}
+
+.equaltobe {
+    background-color: rgb(117, 0, 252);
+}
+
+.operater {
+    color: rgb(72, 255, 0);
+    background-color: rgba(230, 18, 18, 0.849);
+}
+
+.simple h1{
+    display: flex;
+    position: absolute;
+    font-size: 45px;
+    top: 45px;
+    left:41%;
+    justify-content: center;
+    color: aliceblue;
+    width: 20%;
+}
